@@ -1,0 +1,14 @@
+.contact-section {
+  background-image: url('~/static/img/contact-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom -240px left;
+}
+
+@include media-breakpoint-up(md) {
+
+.contact-section {
+  background-size: 600px;
+}
+
+}

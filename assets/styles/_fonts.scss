@@ -1,0 +1,124 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Saira+Condensed:wght@600&family=Saira+Extra+Condensed:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.saria-condensed {
+  font-family: 'Saira Condensed', sans-serif!important;
+}
+
+.saria-e-condensed {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.h--big {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-transform: uppercase;
+  &.c-blue-2 {
+    -webkit-text-stroke-color: #063E67;
+    color: transparent;
+  }
+}
+
+.icon-heading {
+  width: 40px;
+  height: 40px;
+}
+
+.h--big-white {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #EFEFEF;
+  text-transform: uppercase;
+  position: relative;
+
+  .sign-in {
+    position: absolute;
+    top: 5rem;
+    margin: 0 auto;
+    // -webkit-transform: rotate(-90deg) translate(-100%, -8px);
+    // transform: rotate(-90deg) translate(-100%, -8px);
+    // -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    margin-top: 0;
+    color: #fff;
+    border-bottom: none;
+  }
+
+}
+
+.h--big--borders {
+  border-top: 4px solid #CAD9E7;
+  border-bottom: 4px solid #CAD9E7;
+  padding: 18px 0;
+  font-weight: 800;
+}
+
+.white {
+  color: #fff;
+}
+
+.c-grey {
+  color: #ABABAB;
+}
+
+.c-green {
+  color: #10C684;
+}
+
+.c-red {
+  color: #ED5858!important;
+  text-decoration: none;
+}
+
+.c-blue-light {
+  color: #78c4fb!important;
+  text-decoration: none;
+}
+
+.c-blue-lighter {
+  color: #ADD7F5!important;
+  text-decoration: none;
+}
+
+.c-blue {
+  color: #0680D8;
+}
+
+.c-blue-2 {
+  color: #063E67;
+}
+
+.c-grey-2 {
+  color: #787575!important;
+  text-decoration: none;
+}
+
+@include media-breakpoint-up(md) {
+  .h--big--borders {
+    padding: 20px 0;
+  }
+  .h--big-inner-rotate {
+    padding-left: 90px;
+  }
+  .h--big--md-blue {
+    -webkit-text-stroke-color: #ADD7F5;
+  }
+}
+
+

@@ -1,0 +1,143 @@
+.login-frame {
+  background-color: #373737;
+  background-image: url('~/static/img/login-bg.png');
+  display: flex;
+  min-height: calc(100vh - 76px);
+  // overflow: auto;
+  // width: 100%;
+  justify-content: center;
+  align-items: center;
+  // position: absolute;
+  font-family: "Montserrat";
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  flex-direction: column;
+  padding: 24px;
+  // overflow: auto;
+
+  .link-pass {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .form-text.error {
+    color: #EFAAAA;
+  }
+
+  .btn-return {
+    color: #fff;
+    margin-top: 48px;
+    text-decoration: none;
+    cursor: pointer;
+    background-image: url('~/static/img/line-return-2.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    padding-left: 34px;
+  }
+
+
+}
+
+  .btn-blue-return {
+    color: #0680D8;
+    margin-top: 48px;
+    text-decoration: none;
+    cursor: pointer;
+    background-image: url('~/static/img/line-return-blue.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 34px;
+  }
+
+.starts-box {
+  color: #D7D7D7;
+}
+
+.login-box {
+  background: rgba(241, 241, 231, 0.2);
+  backdrop-filter: blur(40px);
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 0;
+  margin: 0 24px 0;
+
+  .btn-register {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 16px;
+  }
+
+  .btn-login {
+    background: #FFFFFF;
+    color: #787575;
+    width: 280px;
+    padding: 12px 12px 12px 52px;
+    margin: 8px 0;
+    background-repeat: no-repeat;
+    background-position: left 16px center;
+    text-decoration: none;
+
+    &.btn-facebook {
+      background-image: url('~/static/img/facebook-login.svg');
+    }
+
+    &.btn-google {
+      background-image: url('~/static/img/google-login.svg');
+    }
+
+    &.btn-email {
+      background-image: url('~/static/img/email-login.svg');
+    }
+  }
+
+}
+
+@include media-breakpoint-up(md) {
+
+  .login-frame {
+    background-size: 100%;
+  }
+
+  .login-form-box {
+
+  }
+
+  .login-box {
+    min-width: 456px;
+    width: auto;
+    padding: 64px 54px;
+  }
+
+  .login-frame.login-frame__sign-in .login-box {
+    width: 584px;
+  }
+
+}
+
+@include media-breakpoint-up(lg) {
+
+  .login-frame {
+
+    background-size: 1000px;
+  }
+  .login-box {
+    width: auto;
+    padding: 60px 124px;
+    width: 660px;
+  }
+
+  .login-frame.login-frame__sign-in {
+    flex-direction: row;
+  }
+
+  .login-frame.login-frame__sign-in .login-box {
+    width: 456px;
+  }
+
+}

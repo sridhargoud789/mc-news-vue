@@ -1,0 +1,25 @@
+.bg-i-all:after {
+  background-image: url('~/static/img/i-all.svg');
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 12px;
+  height: 28px;
+  margin-left: 6px;
+  content: " ";
+  position: relative;
+  top: 1.5px;
+}
+
+.bg-i-dropdown:after {
+  background-image: url('~/static/img/i-dropdown.svg');
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 11px;
+  height: 28px;
+  margin-left: 6px;
+  content: " ";
+  position: relative;
+  top: 1.5px;
+}

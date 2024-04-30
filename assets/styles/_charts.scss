@@ -1,0 +1,7 @@
+.cg-container {
+  border: 10px solid red!important;
+}
+
+:host(coingecko-coin-compare-chart-widget) .cg-container  {
+  display: none!important;
+}

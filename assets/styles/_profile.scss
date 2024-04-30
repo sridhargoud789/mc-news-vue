@@ -1,0 +1,55 @@
+.card-profile {
+  background: #fff;
+}
+
+.card-profile__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EFEFEF;
+  align-items: center;
+}
+
+.card-probile__img {
+  border-radius: 100px;
+  width: 64px;
+  height: 64px;
+}
+
+.toggle-card {
+  border: none;
+  background: transparent;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-save {
+    display: none;
+  }
+}
+
+.editable {
+  .toggle-card {
+    .text-save {
+      display: block;
+    }
+    .img-edit {
+      display: none;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .modal-dialog {
+    padding: 0 24px;
+  }
+  .modal-delete-account {
+    padding: 32px 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .modal-delete-account {
+    width: 668px;
+    padding: 64px 32px;
+  }
+}

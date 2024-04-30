@@ -1,0 +1,36 @@
+export interface CurrencyResponseInterface {
+  id: number;
+  order?: number;
+  slug?: string;
+  cg_id?: string;
+  cg_symbol?: string;
+  cg_name?: string;
+  cg_image?: string;
+  cg_current_price?: string;
+  cg_market_cap?: string;
+  cg_market_cap_rank?: string;
+  cg_fully_diluted_valuation?: string;
+  cg_total_volume?: string;
+  cg_high_24h?: string;
+  cg_low_24h?: string;
+  cg_price_change_24h?: string;
+  cg_price_change_percentage_24h?: string;
+  cg_market_cap_change_24h?: string;
+  cg_market_cap_change_percentage_24h?: string;
+  cg_circulating_supply?: string;
+  cg_total_supply?: string;
+  cg_max_supply?: string;
+  cg_ath?: string;
+  cg_ath_change_percentage: string;
+  cg_ath_date?: string;
+  cg_atl?: string;
+  cg_atl_change_percentage?: string;
+  cg_atl_date?: string;
+  cg_price_change_percentage_7d_in_currency?: string;
+  cg_last_updated?: string;
+  banner?: number;
+  created_at?: string;
+  updated_at?: string;
+  deleted_at?: string;
+  sparklinein7d?: any[];
+}

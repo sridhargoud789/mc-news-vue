@@ -1,0 +1,147 @@
+.input-nb {
+  position: relative;
+
+  &.input-nb-light {
+    width: 100%;
+
+    .form-control {
+      border: 1px solid transparent;
+      color: #373737;
+      transition: none;
+    }
+    .form-label {
+      color: #787575;
+      font-family: 'Lato', sans-serif;
+      transition: none;
+    }
+
+    .form-control:not(:placeholder-shown) + .form-label {
+      transform: translateY(-9px) scale(0.8);
+    }
+  }
+
+  .form-select {
+    height: 54px;
+    border: 1px solid #E7ECF1;
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+    outline: none!important;
+    box-shadow: none!important;
+
+  }
+
+  &.input-nb__select {
+    &:before {
+      width: 20px;
+      height: 20px;
+      background-image: url('~/static/img/select.svg');
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .form-control {
+    height: 54px;
+    border: 1px solid #E7ECF1;
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+    outline: none!important;
+    box-shadow: none!important;
+
+
+    &:not(:placeholder-shown) {
+      padding-top: 22px;
+    }
+
+    &:not(:placeholder-shown) + .form-label {
+      transform: translateY(-7px) scale(0.8);
+      transform-origin: top left;
+    }
+
+  }
+
+  .form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    top: 15px;
+    left: 13px;
+    transition: all 0.12s ease-in-out;
+    pointer-events: none;
+  }
+}
+
+.check-nb {
+    border: 1px solid #E7ECF1;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 0!important;
+    outline: 0!important;
+    box-shadow: none!important;
+}
+
+.radio-nb {
+    border: 1px solid #E7ECF1;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    outline: 0!important;
+    box-shadow: none!important;
+}
+
+.editable {
+  .input-nb {
+
+  &.input-nb-light {
+    .form-control {
+      border: 1px solid #D7D7D7;
+    }
+    .form-label {
+      color: #787575;
+    }
+  }
+}
+}
+
+.card-profile:not(.editable) {
+  .input-nb {
+
+  &.input-nb-light {
+    .form-control {
+      padding-left: 0;
+      transition: none;
+    }
+    .form-label {
+      left: 0;
+      transition: none;
+    }
+  }
+}
+}
+
+@include media-breakpoint-up(md) {
+
+  .input-nb {
+    width: 368px;
+    display: block;
+  }
+
+}
+
+@include media-breakpoint-up(lg) {
+
+  .input-nb {
+    width: 248px;
+
+  }
+
+}

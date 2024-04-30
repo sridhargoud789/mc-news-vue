@@ -1,0 +1,36 @@
+.mod--title {
+  position: relative;
+  z-index: 20;
+  .mod--title__container {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    top: 439px;
+    left: 40px;
+  }
+  .mod--title__text {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #373737;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    margin-left: 8px;
+  }
+  .mod--title__scroll {
+    color: #45b2cb;
+    font-family: 'Saira Condensed', sans-serif;
+    &:before {
+      width: 100px;
+      height: 1px;
+      content: " ";
+      display: inline-block;
+      background: linear-gradient(-90deg, #1d93c9 0%, rgba(16, 198, 132, 0) 97.1%);
+      position: relative;
+      bottom: 4px;
+      margin-right: 8px;
+    }
+  }
+}

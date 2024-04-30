@@ -1,0 +1,29 @@
+.space-1 { height: 50px }
+.space-2 { height: 100px }
+.space-3 { height: 150px }
+.space-4 { height: 200px }
+.space-5 { height: 250px }
+
+
+@include media-breakpoint-up(md) { 
+
+  .space-md-1 { height: 50px }
+  .space-md-2 { height: 100px }
+  .space-md-3 { height: 150px }
+  .space-md-4 { height: 200px }
+  .space-md-5 { height: 250px }
+
+}
+
+
+@include media-breakpoint-up(lg) { 
+
+  .space-lg-1 { height: 50px }
+  .space-lg-2 { height: 100px }
+  .space-lg-3 { height: 150px }
+  .space-lg-4 { height: 200px }
+  .space-lg-5 { height: 250px }
+
+}
+
+

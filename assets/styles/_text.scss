@@ -1,0 +1,138 @@
+.text-10 { font-size: 10px; }
+.text-11 { font-size: 11px; }
+.text-12 { font-size: 12px; }
+.text-13 { font-size: 13px; }
+.text-14 { font-size: 14px; }
+.text-15 { font-size: 15px; }
+.text-16 { font-size: 16px; }
+.text-17 { font-size: 17px; }
+.text-18 { font-size: 18px; }
+.text-19 { font-size: 19px; }
+.text-20 { font-size: 20px; }
+.text-22 { font-size: 22px; }
+.text-24 { font-size: 24px; }
+.text-26 { font-size: 26px; } 
+.text-28 { font-size: 28px; }
+.text-30 { font-size: 30px; }
+.text-32 { font-size: 32px; }
+.text-34 { font-size: 34px; }
+.text-36 { font-size: 36px; }
+.text-38 { font-size: 38px; }
+.text-40 { font-size: 40px; }
+.text-42 { font-size: 42px; }
+.text-44 { font-size: 44px; }
+.text-46 { font-size: 46px; }
+.text-48 { font-size: 48px; }
+.text-50 { font-size: 50px; }
+.text-52 { font-size: 52px; }
+.text-54 { font-size: 54px; }
+.text-56 { font-size: 56px; }
+.text-58 { font-size: 58px; }
+.text-60 { font-size: 60px; }
+.text-62 { font-size: 62px; }
+.text-64 { font-size: 64px; }
+.text-70 { font-size: 70px; }
+.text-80 { font-size: 80px; }
+
+.lh_1 {
+  line-height: 1;
+}
+
+.lh_1-8 {
+  line-height: 1.8;
+}
+
+.lh_08 {
+  line-height: 0.8;
+}
+
+@include media-breakpoint-up(md) { 
+
+  .text-md-10 { font-size: 10px; }
+  .text-md-11 { font-size: 11px; }
+  .text-md-12 { font-size: 12px; }
+  .text-md-13 { font-size: 13px; }
+  .text-md-14 { font-size: 14px; }
+  .text-md-15 { font-size: 15px; }
+  .text-md-16 { font-size: 16px; }
+  .text-md-17 { font-size: 17px; }
+  .text-md-18 { font-size: 18px; }
+  .text-md-18 { font-size: 19px; }
+  .text-md-20 { font-size: 20px; }
+  .text-md-21 { font-size: 21px; }
+  .text-md-22 { font-size: 22px; }
+  .text-md-24 { font-size: 24px; }
+  .text-md-26 { font-size: 26px; }
+  .text-md-28 { font-size: 28px; }
+  .text-md-30 { font-size: 30px; }
+  .text-md-32 { font-size: 32px; }
+  .text-md-34 { font-size: 34px; }
+  .text-md-36 { font-size: 36px; }
+  .text-md-38 { font-size: 38px; }
+  .text-md-40 { font-size: 40px; }
+  .text-md-42 { font-size: 42px; }
+  .text-md-44 { font-size: 44px; }
+  .text-md-46 { font-size: 46px; }
+  .text-md-48 { font-size: 48px; }
+  .text-md-50 { font-size: 50px; }
+  .text-md-52 { font-size: 52px; }
+  .text-md-54 { font-size: 54px; }
+  .text-md-56 { font-size: 56px; }
+  .text-md-58 { font-size: 58px; }
+  .text-md-60 { font-size: 60px; }
+  .text-md-62 { font-size: 62px; }
+  .text-md-64 { font-size: 64px; }
+  .text-md-70 { font-size: 70px; }
+  .text-md-72 { font-size: 72px; }
+  .text-md-80 { font-size: 80px; }
+  .text-md-84 { font-size: 84px; }
+  .text-md-92 { font-size: 92px; }
+  .text-md-96 { font-size: 96px; }
+  .text-md-98 { font-size: 98px; }
+  .text-md-100 { font-size: 100px; }
+
+}
+
+
+@include media-breakpoint-up(lg) { 
+
+  .text-lg-10 { font-size: 10px; }
+  .text-lg-11 { font-size: 11px; }
+  .text-lg-12 { font-size: 12px; }
+  .text-lg-13 { font-size: 13px; }
+  .text-lg-14 { font-size: 14px; }
+  .text-lg-15 { font-size: 15px; }
+  .text-lg-16 { font-size: 16px; }
+  .text-lg-17 { font-size: 17px; }
+  .text-lg-18 { font-size: 18px; }
+  .text-lg-18 { font-size: 19px; }
+  .text-lg-20 { font-size: 20px; }
+  .text-lg-22 { font-size: 22px; }
+  .text-lg-24 { font-size: 24px; }
+  .text-lg-26 { font-size: 26px; }
+  .text-lg-28 { font-size: 28px; }
+  .text-lg-30 { font-size: 30px; }
+  .text-lg-32 { font-size: 32px; }
+  .text-lg-34 { font-size: 34px; }
+  .text-lg-36 { font-size: 36px; }
+  .text-lg-38 { font-size: 38px; }
+  .text-lg-40 { font-size: 40px; }
+  .text-lg-42 { font-size: 42px; }
+  .text-lg-44 { font-size: 44px; }
+  .text-lg-46 { font-size: 46px; }
+  .text-lg-48 { font-size: 48px; }
+  .text-lg-50 { font-size: 50px; }
+  .text-lg-52 { font-size: 52px; }
+  .text-lg-54 { font-size: 54px; }
+  .text-lg-56 { font-size: 56px; }
+  .text-lg-58 { font-size: 58px; }
+  .text-lg-60 { font-size: 60px; }
+  .text-lg-62 { font-size: 62px; }
+  .text-lg-64 { font-size: 64px; }
+  .text-lg-70 { font-size: 70px; }
+  .text-lg-80 { font-size: 80px; }
+  .text-lg-100 { font-size: 100px; }
+
+}
+
+

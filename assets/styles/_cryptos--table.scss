@@ -1,0 +1,71 @@
+.cryptos--table {
+  .cryptos--table__row {
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    color: #787575;
+    font-size: 14px;
+  }
+      .container {
+      width: auto;
+      margin: 0;
+      padding: 0;
+      margin-left: auto;
+    }
+  .cryptos--table__num {
+    width: 16px;
+    margin-right: 8px;
+    display: block;
+  }
+      svg.primary--text {
+      width: 120px;
+    } 
+
+  .cryptos--table__graph, .container {
+    margin-left: 16px;
+    img {
+      width: 82px;
+    }
+  }
+  .cryptos--table__stars {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 80px;
+    }
+  }
+  .cryptos--table__icon {
+    height: 24px;
+    margin-right: 8px;
+  }
+  .cryptos--table__name {
+    color: #373737;
+    margin-right: auto;
+  }
+  .cryptos--table__value {
+
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+.cryptos--table {
+  padding-left: 104px;
+  position: relative;
+  .cryptos--table__row {
+    height: 67px;
+  }
+  .h--big {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg) translate(-100%, -8px);
+    transform-origin: 0 0;
+    margin-top: 17px;
+  }
+}
+
+}

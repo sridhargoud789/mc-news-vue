@@ -1,0 +1,44 @@
+.alert-promo {
+  background: #1C1C1C;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 24px;
+  .btn-close {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    color: #fff;
+    background-image: url('~/static/img/close-alert.svg');
+    background-size: 24px 24px;
+    background-position: center;
+    opacity: 1;
+    top: calc(50% - 18.5px);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+
+.alert-promo {
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  padding: 24px 40px;
+  .btn-close {
+
+  }
+}
+
+}

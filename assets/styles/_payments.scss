@@ -1,0 +1,132 @@
+._warning-text{
+  color: red;
+}
+.thdgFields > input {
+  width: 32% !important;
+}
+.paycard{
+  background: white;
+  border: none !important;
+  transition: left 0.3s linear;
+  min-height: 100%;
+}
+.paycard.inactive{
+  left: -100%;
+}
+.paycard.active{
+  left: 0%;
+}
+.payment-page{
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pay-section{
+  padding: 30px;
+}
+.p-description{
+  margin-bottom: 8px !important;
+  font-size: 0.8rem;
+  font-family: "Montserrat";
+  padding-left: 10px;
+  /**
+      Desplazar.
+  */
+}
+.pay-mid{
+  width: 50%;
+  position: relative;
+  >.paycard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+  }
+  >.paycard:first-child{
+    height: auto;
+    position: relative;
+  }
+
+}
+
+.payment{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 920px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+.payment input[type="radio"]{
+  border-color: #45B2CB;
+}
+.payment input[type="radio"]:checked{
+  background: #45B2CB;
+}
+.payment_methods{
+  padding: 0px 5px;
+}
+.payment_methods > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Montserrat";
+}
+.payment_methods > div p{
+  width: calc(100% - 20px);
+  margin-bottom: 8px;
+}
+.--paymen-methods{
+  margin-top: 30px;
+}
+.pvp{
+  font-size: 0.9rem;
+  color: #2A5673;
+}
+.pvp .prices{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.pvp .prices img{
+  height: 1.2rem;
+  margin-bottom: 3px;
+}
+.pvp .oldprice{
+  color: #CB459D !important;
+  font-weight: 300;
+  margin: 0 5px;
+  text-decoration: line-through;
+}
+.feature{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.feature img{
+  width: 32px;
+  height: 32px;
+}
+.feature p{
+  width: calc(100% - 37px);
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.finally{
+
+}
+
+@include media-breakpoint-up(md) {
+  .finally{
+    position: absolute; 
+    bottom: 30px;
+  }
+}
+@include media-breakpoint-down(md) {
+  .pay-mid{
+    width: 100%;
+  }
+
+}
